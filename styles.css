@@ -2,6 +2,7 @@
 body {
     background: hsl(212, 45%, 89%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -29,7 +30,7 @@ h1 {
     padding-left: 25px;
     padding-right: 25px;
     text-align: center;
-    margin: 0;
+    margin: 1rem 0;
     font-weight: 700;
 }
 p {
@@ -42,5 +43,7 @@ p {
     text-align: center;
     color: hsl(220, 15%, 55%);
     margin: 0;
-
+}
+.footer {
+    padding: 1.5rem;
 }
