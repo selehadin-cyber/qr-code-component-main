@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .container {
     display: flex;
@@ -17,7 +18,7 @@ body {
 }
 img {
     max-width: 280px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10%;
 }
 h1 {
@@ -25,15 +26,21 @@ h1 {
     font-size: 20px;
     font-family: outfit;
     align-self: center;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
+    margin: 0;
+    font-weight: 700;
 }
 p {
     max-width: 350px;
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 37px;
     font-size: 15px;
     font-family: outfit;
+    font-weight: 400;
     text-align: center;
     color: hsl(220, 15%, 55%);
+    margin: 0;
 
 }
